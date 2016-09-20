@@ -1,0 +1,33 @@
+/*
+Error: Invalid CSS after "$": expected identifier, was "(document).read..."
+        on line 1 of /Users/fvcproductions/Dropbox/github/startup-systems/assets/sass/drake-me.scss
+
+1: $(document).ready(function() {
+2:   logEmoji();
+3: 
+4:   //var window_height = $(window).height();
+5:   //adjust section height
+6: 
+
+Backtrace:
+/Users/fvcproductions/Dropbox/github/startup-systems/assets/sass/drake-me.scss:1
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1179:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1115:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1110:in `tok!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:616:in `variable'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:673:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:663:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:123:in `stylesheet'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:39:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:403:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$\": expected identifier, was \"(document).read...\"\A         on line 1 of /Users/fvcproductions/Dropbox/github/startup-systems/assets/sass/drake-me.scss\A \A 1: $(document).ready(function() {\A 2:   logEmoji();\A 3: \A 4:   //var window_height = $(window).height();\A 5:   //adjust section height\A 6: "; }

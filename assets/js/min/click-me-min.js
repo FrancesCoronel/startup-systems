@@ -1,0 +1,1 @@
+$(document).ready(function(){var e;$(".click-me").click(function(t){e===!0?($("h1").removeClass("pulse"),$("span",this).text("Ba dum ba dum"),e=!1):(t.preventDefault(),$("h1").addClass("pulse"),$("span",this).text("stoppp"),e=!0)})});
